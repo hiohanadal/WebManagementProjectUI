@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang-"pt-br">
+<head>
+    <title> Register</title>
+    <meta name="robots" content="noindes, nofollow" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=devide-width, initial scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../3078951.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="register.css" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box">
+
+            <img height="100" src="../3078951.png" />
+            <h1>Welcome!</h1>
+            <h2>Complete the fields.</h2>
+
+            <form>
+                <div class="row">
+                    <div class="left">
+                        <label for="nameTxt">Name:</label>
+                        <input type="text" class="input-field" id="nameTxt" />
+                    </div>
+
+                    <div>
+                        <label for="nameTxt">Last name:</label>
+                        <input id="lastNameTxt" type="text" class="input-field" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                        <label for="cpfTxt">CPF:</label>
+                        <input id="cpfTxt" type="number" class="input-field" />
+                    </div>
+
+                    <div class>
+                        <label for="genderTxt">Gender:</label>
+                        <select id="genderTxt" class="input-field">
+                            <option>I prefer not to say</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                        <label for="phoneTxt">Enter your phone number:</label>
+                        <input id="phoneTxt" type="number" class="input-field" />
+                    </div>
+
+                    <div class>
+                        <label for="addressTxt">Enter your address:</label>
+                        <input id="addressTxt" type="text" class="input-field" />
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                        <label for="emailTxt">E-mail:</label>
+                        <input id="emailTxt" type="email" class="input-field" />
+                    </div>
+
+                    <div class>
+                        <label for="passwordTxt">Enter your password:</label>
+                        <input id="passwordTxt" type="password" class="input-field" />
+                    </div>
+                </div>
+
+                <button id="registerButton">Submit</button>
+
+            </form>
+
+            <span id="errorSpan" class="error"></span>
+
+            <p>Already have an account?<a href="login.html"> Login</a></p>
+
+        </div>
+
+    </div>
+
+    <script src="register.js"></script>
+
+</body>
